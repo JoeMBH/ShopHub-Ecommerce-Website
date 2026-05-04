@@ -275,6 +275,7 @@ body {
 
 .auth-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .checkout-container {
