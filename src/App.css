@@ -345,6 +345,7 @@ body {
 }
 
 .quantity-btn {
+  font-weight: 500;
   width: 32px;
   height: 32px;
   border: 1px solid #ddd;
