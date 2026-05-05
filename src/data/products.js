@@ -73,10 +73,12 @@ export const products = [
   },
 ];
 
+//* Returns all of the products for rendering into the page.
 export function getProducts() {
   return products;
 }
 
+//* Allows dynamic product browsing in the View Details funcitonality.
 export function getProductById(id) {
   return products.find((product) => product.id === Number(id));
 }
