@@ -33,6 +33,8 @@ export const AuthProvider = ({ children }) => {
   };
 
   const login = (email, password) => {
+    //! NOTE: Never store data locally without hashing like this.
+    //! This is a simple React demo for learning purposes.
     // Find specific user's account in local storage, if it exists.
     const users = JSON.parse(localStorage.getItem("users")) || [];
     // Check if both email and password match any existing user.
